@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg) no-repeat;
+}
+
+.pop-up {
+  width: 500px;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  text-align: center;
+  margin: 13% auto;
+  padding-bottom: 0.1px;
+  background: hsl(225, 100%, 98%);
+}
+.illustration-hero img {
+  border-radius: 35px 35px 0 0px;
+  width: 100%;
+}
+
+.main-content {
+  padding: 30px;
+}
+.main-content h1 {
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+p {
+  color: hsl(224, 23%, 55%);
+}
+.cost {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: hsl(225, 100%, 94%);
+  border-radius: 18px;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+.cost-infor {
+  margin: 10px;
+}
+.cost-infor h2 {
+  font-weight: 700;
+}
+.cost-section {
+  display: flex;
+  justify-content: space-between;
+}
+.link-change {
+  padding: 20px;
+}
+.link-change a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+.btn {
+  border-radius: 18px;
+  padding: 20px;
+  font-weight: 700;
+  background: transparent;
+}
+.btn-proceed {
+  text-align: center;
+  margin: 30px 20px 10px 20px;
+  color: hsl(224, 23%, 55%);
+}
+.btn-cancel {
+  margin: 10px 20px 30px 20px;
+  color: hsl(224, 23%, 55%);
+}
+ h1, h2 { 
+  color: hsl(223, 47%, 23%);
+}
+
+.btn-proceed:hover {
+  font-size: 20px;
+  font-weight: 900;
+  background: hsl(245, 75%, 52%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: hsl(225, 100%, 94%);
+}
+.btn-cancel:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 415px) {
+  .pop-up {
+    width: 300px;
+    height: 615px;
+  }
+}
